@@ -16,3 +16,15 @@
 /* variables ----------------------------------------------------------- */
 
 /* constant variables -------------------------------------------------- */
+
+let admin;
+let name;
+
+name = "john";
+admin = name;
+
+alert(admin);
+
+const PLANET = "EARTH";
+
+let currentUserName = "me";
