@@ -128,6 +128,21 @@ const _a6 = new User();
 
 // Array
 
+const arr = ['a', { name: 'sungwoo' }, () => {}, 4, 5];
+console.log(arr);
+
+const newArray = new Array(10);
+
+console.log(newArray);
+
 // function
+
+function sum(a, b) {
+  return a + b;
+}
+
+const result = sum(10, 5);
+
+console.log(result);
 
 // this
