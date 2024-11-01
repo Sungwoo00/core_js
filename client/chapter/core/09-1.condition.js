@@ -45,11 +45,30 @@ let message =
 //           ↓
 //       Yes | No
 
-// 영화 봤니?
-let didWatchMovie;
+function watchingMovie() {
+  // 영화 봤니?
+  let didWatchMovie = confirm('그 영화 봤니?');
 
-// 영화 볼거니?
-let goingToWatchMovie;
+  // 영화 볼거니?
+  let goingToWatchMovie;
+
+  if (didWatchMovie) {
+    console.log('영화 재밌더라');
+  } else {
+    let goingToWatchMovie = confirm('영화 볼래?');
+
+    if (goingToWatchMovie) {
+      let who = prompt('누구랑 볼거야?');
+      if (who === '너') {
+        console.log('좋아~');
+      } else {
+        console.log('누구랑 보니ㅠ');
+      }
+    } else {
+      console.log('ㅠ');
+    }
+  }
+}
 
 // if 문(statement)
 
@@ -60,3 +79,21 @@ let goingToWatchMovie;
 // 조건부 연산자
 
 // 멀티 조건부 연산자 식
+
+let didWatchMovie = 'no';
+let goingToWatchMovie = 'yes';
+
+const msg = didWatchMovie.includes('yes')
+  ? '영화 재밌더라'
+  : goingToWatchMovie.includes('yes')
+    ? '언제 볼래?'
+    : '왜?';
+
+// function render(node, isActive) {
+//   // 조건부 랜더링
+//   let template = `
+//     <div>${isActive ? '안녕' : '잘가'}</div>
+//   `;
+
+//   node.insertAdjacentHTML('beforeend', template);
+// }
