@@ -48,38 +48,38 @@
 
 // DOM (Document Object Model)
 
-let first = document.querySelector('.first');
+// let first = document.querySelector('.first');
 
-function next(node) {
-  // validation
-  if (typeof node === 'string') {
-    node = document.querySelector(node);
-  }
+// function next(node) {
+//   // validation
+//   if (typeof node === 'string') {
+//     node = document.querySelector(node);
+//   }
 
-  do {
-    node = node.nextSibling;
-  } while (node.nodeType !== 1);
+//   do {
+//     node = node.nextSibling;
+//   } while (node.nodeType !== 1);
 
-  return node;
-}
+//   return node;
+// }
 
-const second = next('.first');
+// const second = next('.first');
 
-const _second = next(first);
+// const _second = next(first);
 
-function prev(node) {
-  if (typeof node === 'string') {
-    node = document.querySelector(node);
-  }
+// function prev(node) {
+//   if (typeof node === 'string') {
+//     node = document.querySelector(node);
+//   }
 
-  do {
-    node = node.previousSibling;
-  } while (node.nodeType !== 1);
+//   do {
+//     node = node.previousSibling;
+//   } while (node.nodeType !== 1);
 
-  return node;
-}
+//   return node;
+// }
 
-const _first = prev('.second');
+// const _first = prev('.second');
 
 // console.dir(first)
 
@@ -90,3 +90,8 @@ const _first = prev('.second');
 // }while(first.nodeType !== 1)
 
 //   console.log(first)
+
+const obj = {
+  name: 'sungwoo',
+  age: 100,
+};
