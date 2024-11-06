@@ -83,7 +83,6 @@ console.log(transRemPx('30px', 10));
 
 console.clear();
 // css(node: string, prop: string, value: number|strung) : string;
-let css;
 
 function setCss(node, property, value) {
   if (typeof node === 'string') node = document.querySelector(node);
@@ -95,10 +94,39 @@ function setCss(node, property, value) {
   if (!value)
     throw new Error('setCss 함수의 세 번째 인수는 필수 입력 값입니다');
 
-  element.style[property] = value;
+  node.style[property] = value;
 }
 
 setCss('.first', 'backgroundColor', 'red');
+
+function getCss(node, property) {
+  if (typeof node === 'string') {
+    node = document.querySelector(node);
+  }
+
+  if (!(property in document.body.style)) {
+    throw new Error('setCss 함수의 두 번째 인수는 필수 입력 값입니다');
+  }
+
+  return node ? getComputedStyle(node)[property] : null;
+}
+
+const fontsize = getCss('.first', 'font-size');
+
+console.log(fontsize);
+
+function css(node, property, value) {
+  // if (!value) {
+  //   return getCss(node, property);
+  // } else {
+  //   return setCss(node, property, value);
+  // }
+
+  return !value ? getCss(node, property) : setCss(node, property, value);
+}
+console.log(css('.first', 'color'));
+
+css('.first', 'color', 'yellow');
 
 // 1. function name
 // 2. arguments(함수 실행부)
