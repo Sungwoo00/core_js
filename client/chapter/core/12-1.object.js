@@ -16,6 +16,8 @@ const html = /* html */ `
 `
 
 
+
+
 // key:value 쌍으로 구성된 엔티티(entity) 데이터 구조
 let cssCode = /* css */ `
   .dialog {
@@ -101,18 +103,13 @@ console.log( authUser['permission'] );
 //setter
 console.log( authUser['permission'] = 'paid');
 
-// 계산된 프로퍼티 (computed property)
-// let calculateProperty = 'phone'; // phone | tel
+
 
 
 
 // 객체의 key만을 모아서 배열로 반환하는 객체의 static method는? 
 
 const keys = Object.keys(authUser);
-
-// 객체의 value만을 모아서 배열로 반환하는 객체의 static method는? 
-
-const values = Object.values(authUser);
 
 
 // keys
@@ -128,7 +125,11 @@ const values = Object.values(authUser);
 //   return arr;
 // }
 
-// const values = Object.values(authUser);
+
+
+// 객체의 value만을 모아서 배열로 반환하는 객체의 static method는? 
+
+const values = Object.values(authUser);
 
 // function getProperties(obj){
 
@@ -143,11 +144,10 @@ const values = Object.values(authUser);
 // }
 
 
-// getProperties(authUser)
 
+// 객체의 key와 value를 하나의 쌍으로 묶어 배열로 반환하는 객체의 static method는?
 
 const entries = Object.entries(authUser);
-
 
 
 function getProperties(obj){
@@ -156,65 +156,65 @@ function getProperties(obj){
 
   for(const key in obj){
     if(Object.hasOwn(obj,key)){
-      arr.push(obj[key])
+      arr.push([key,obj[key]])
     }
   }
   return arr;
 }
 
-
 getProperties(authUser)
+
+
 
 console.clear()
 
 
+
+
+// 프로퍼티 제거 or 삭제 
 // 제거(remove) or 삭제(delete)
-//  비워두기         메모리 날림
+//    비워두기        메모리 날림
 
 
 
-function removeProperty(obj, key) {
-
+function removeProperty(obj,key){
 
   if(isObject(obj)){
     obj[key] = null
   }
+
 }
 
 removeProperty(authUser,'uuid'); authUser.uuid = null;
 
 
-
-function deleteProperty(obj, key) {
+function deleteProperty(obj,key){
   if(isObject(obj)){
     delete obj[key]
   }
-
 }
+
+
+
 
 // 프로퍼티 포함 여부 확인
 
 
 // 프로퍼티 나열
 
-// 계산된 프로퍼티 
 
-let calculateProperty = 'phone';
 
-function createUser(name,age,phone) {
+// 계산된 프로퍼티 (computed property)
+let calculateProperty = 'tel'; // phone | tel
 
+function createUser(name,age,phone){
+  
   return {
     name: name,
     age: age,
-    [calculateProperty]: phone
+    [calculateProperty + '번호']: phone,
   }
 }
-
-
-
-// 프로퍼티 제거 or 삭제 
-
-
 
 
 // 단축 프로퍼티
@@ -224,14 +224,14 @@ let authorization = 'Lv. 99';
 let isLogin = true;
 
 
+// shorthand properties
+
 const student = {
   name,
   email,
   authorization,
   isLogin
 }
-
-
 
 // 프로퍼티 이름 제한
 // 예약어: class, if, switch, for, while, ...
@@ -249,30 +249,69 @@ function isEmptyObject() {
 /* 배열 구조 분해 할당  destructuring assignments   */
 /* ------------------------------------------- */
 
-const arr = [10, 100, 1000, 10_000];
+// 순서(order)를 바꿀 수 없음. 변수명 내맘대로 
+const arr = [10,100,1000,10_000];
 
-const [a1,a2,a3,a4,a5=100_000] = arr
+// rest?
+// 기본값 설정
+const [a1, a2, a3, a4, a5 = 100_000] = arr;
 
-console.log(a5)
+arr[4] = '안녕';
 
-const [first,second] = document.querySelectorAll('span')
+
+// const a1 = arr[0];
+// const a2 = arr[1];
+// const a3 = arr[2];
+
+
+console.log( a5 );
+
+
+const [first,second] = document.querySelectorAll('span');
 
 console.log(first);
-console.log(second)
+console.log(second);
 
+for (const [key,Value] of Object.entries(authUser)){
+  console.log(key)
+  console.log(Value)
+}
 
-
-
-
-
-
-
-
-
-
+console.clear()
 
 
 
 /* -------------------------------------------- */
 /* 객체 구조 분해 할당  destructuring assignments    */
 /* --------------------------------------------- */
+
+const salaries = {
+  김미리: 800,
+  박혜미: 130,
+  이성우: 400,
+  명재휘: 8,
+}
+
+// 객체의 구조 분해 할당 : 순서가 상관 없음. 객체의 key와 변수의 이름이 동일해야 함. 
+
+const {김미리, 박혜미, 이성우: 이, 명재휘, 이영범 = 300} = salaries;
+
+console.log(이);
+
+
+function createUserObject({name = '', age,address, phone, job, gender = 'male'}={}) {
+
+  // const {name, age,address, phone, job} = obj
+
+  return {name, age,address, phone, job}
+}
+
+const data = {
+  name: '심선범',
+  age: 35,
+  address: '중랑구',
+  phone: '010-7160-284235',
+  job: '강사'
+}
+
+const user = createUserObject(data)
