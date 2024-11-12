@@ -28,7 +28,7 @@
 * [함수와 배열](https://www.notion.so/24-11-06-13694f7c749f8047917cc8af1a1eb7fe)
 - [재귀](https://www.notion.so/24-11-07-13794f7c749f80f39f14f87dbde74fd2)
 * [객체](https://www.notion.so/24-11-07-13794f7c749f80f9956ee044e539db2e)
-* [함수 사용법 feat.this](https://www.notion.so/13794f7c749f80228619c8596b3d2859)
+* [함수 종류 feat.this](https://www.notion.so/13794f7c749f80228619c8596b3d2859)
 * [객체 복사](https://www.notion.so/24-11-08-13894f7c749f807c824ee5fd1c745641)
 * [가비지컬렉터](https://www.notion.so/24-11-09-13994f7c749f8080844fc121914849ad)
 * [this란](https://www.notion.so/this-24-11-09-13994f7c749f80a8817be371fd9f217a)
