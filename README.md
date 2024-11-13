@@ -38,6 +38,14 @@
 <details>
 <summary>3주차</summary>
 
+* [객체지향, 함수형 프로그래밍](https://www.notion.so/24-11-11-13c94f7c749f80349b1fe858fe5c2e8d)
+* [클로저](https://www.notion.so/24-11-12-13c94f7c749f807589f9ce0fba521fcb)
+* [Math]()
+* [String]()
+* [Array]()
+* [Iterable, Iterator]
+* [try, catch]
+  
 </details>
 
 </details>
