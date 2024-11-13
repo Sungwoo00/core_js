@@ -40,9 +40,9 @@
 
 * [객체지향, 함수형 프로그래밍](https://www.notion.so/24-11-11-13c94f7c749f80349b1fe858fe5c2e8d)
 * [클로저](https://www.notion.so/24-11-12-13c94f7c749f807589f9ce0fba521fcb)
-* [Math]()
-* [String]()
-* [Array]()
+* [Math](https://www.notion.so/Math-24-11-13-13d94f7c749f80009249f07334cc6f95)
+* [String](https://www.notion.so/String-24-11-13-13d94f7c749f80138b94f1da6ba3d189)
+* [Array](https://www.notion.so/Array-24-11-13-13d94f7c749f80889900f52084469eb3)
 * [Iterable, Iterator]
 * [try, catch]
   
