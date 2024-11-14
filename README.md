@@ -43,8 +43,8 @@
 * [Math](https://www.notion.so/Math-24-11-13-13d94f7c749f80009249f07334cc6f95)
 * [String](https://www.notion.so/String-24-11-13-13d94f7c749f80138b94f1da6ba3d189)
 * [Array](https://www.notion.so/Array-24-11-13-13d94f7c749f80889900f52084469eb3)
-* [Iterable, Iterator]
-* [try, catch]
+* [Iterable, Iterator](https://www.notion.so/Iterable-Iterator-24-11-13-13d94f7c749f80999877f594132fb0e1)
+* [try, catch](https://www.notion.so/try-catch-24-11-14-13e94f7c749f8085889ad933403189ff)
   
 </details>
 
