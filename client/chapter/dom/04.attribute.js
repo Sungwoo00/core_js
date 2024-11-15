@@ -2,7 +2,7 @@
 /* HTML Attributes vs. DOM Properties   */
 /* ------------------------------------ */
 
-const { isString } = require('@vue/shared');
+// const { isString } = require('@vue/shared');
 
 /* HTML 속성 ------------------------------------------------------------- */
 
@@ -76,3 +76,10 @@ console.log(about.dataset.value);
 // data-* 속성을 사용하면 읽기 쉽고, 수정도 손쉽습니다.
 
 // - elementNode.dataset
+
+
+
+// JavaScript Object Notation
+
+// JSON
+
