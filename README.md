@@ -46,6 +46,8 @@
 * [Iterable, Iterator](https://www.notion.so/Iterable-Iterator-24-11-13-13d94f7c749f80999877f594132fb0e1)
 * [try, catch](https://www.notion.so/try-catch-24-11-14-13e94f7c749f8085889ad933403189ff)
 * [attributes, properties](https://www.notion.so/attributes-properties-24-11-14-13e94f7c749f804599a6c188499610e9)
+* [DOM 메서드](https://www.notion.so/DOM-Method-24-11-15-13f94f7c749f80c594c0ec55c7198072)
+* [event핸들링](https://www.notion.so/event-handling-24-11-16-14094f7c749f805da21bd46d46eb8a52)
   
 </details>
 
