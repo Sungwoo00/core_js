@@ -48,7 +48,14 @@
 * [attributes, properties](https://www.notion.so/attributes-properties-24-11-14-13e94f7c749f804599a6c188499610e9)
 * [DOM 메서드](https://www.notion.so/DOM-Method-24-11-15-13f94f7c749f80c594c0ec55c7198072)
 * [event핸들링](https://www.notion.so/event-handling-24-11-16-14094f7c749f805da21bd46d46eb8a52)
-  
 </details>
+
+<details>
+<summary>4주차</summary>
+  
+* [Debounce, Throttling](https://www.notion.so/Debounce-Throwthling-24-11-18-14294f7c749f80a6b0e9ebf09a7676ab)
+* [Bubbling, Capturing](https://www.notion.so/Bubbling-Capturing-24-11-18-14294f7c749f8010b2f4e76500e005e8)
+</details>
+
 
 </details>
