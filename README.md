@@ -55,7 +55,8 @@
   
 * [Debounce, Throttling](https://www.notion.so/Debounce-Throwthling-24-11-18-14294f7c749f80a6b0e9ebf09a7676ab)
 * [Bubbling, Capturing](https://www.notion.so/Bubbling-Capturing-24-11-18-14294f7c749f8010b2f4e76500e005e8)
-* [Event Delegation]https://www.notion.so/Event-Delegation-24-11-19-14394f7c749f80a2a22cee809a2e99bc
+* [Event Delegation](https://www.notion.so/Event-Delegation-24-11-19-14394f7c749f80a2a22cee809a2e99bc)
+* [Claculator](https://www.notion.so/Claculator-24-11-20-14494f7c749f806bb77cf07a826a74b9)
 </details>
 
 
