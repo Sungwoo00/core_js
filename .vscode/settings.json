@@ -3,5 +3,6 @@
     "comments": "",
     "textMateRules": []
   },
-  "livePreview.defaultPreviewPath": "/client/index.html"
+  "livePreview.defaultPreviewPath": "/client/index.html",
+  "liveServer.settings.port": 5501
 }
