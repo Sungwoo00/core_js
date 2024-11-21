@@ -57,6 +57,7 @@
 * [Bubbling, Capturing](https://www.notion.so/Bubbling-Capturing-24-11-18-14294f7c749f8010b2f4e76500e005e8)
 * [Event Delegation](https://www.notion.so/Event-Delegation-24-11-19-14394f7c749f80a2a22cee809a2e99bc)
 * [Claculator](https://www.notion.so/Claculator-24-11-20-14494f7c749f806bb77cf07a826a74b9)
+* [Promise](https://www.notion.so/Promise-24-11-21-14594f7c749f80cbb51fcc8cae6ee6f7)
 </details>
 
 
