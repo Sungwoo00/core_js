@@ -141,7 +141,7 @@ export function xhrPromise(options = {}) {
     });
   }
 
-  xhr.send(body ? JSON.stringify(body) : null);
+  // xhr.send(body ? JSON.stringify(body) : null);
 
   return new Promise((resolve, reject) => {
     xhr.addEventListener('readystatechange', () => {

@@ -49,7 +49,7 @@ const defaultOptions = {
   timeout: 1000,
 };
 
-function delayP(options) {
+export function delayP(options) {
   let config = { ...defaultOptions };
 
   if (isNumber(options)) {
@@ -148,7 +148,7 @@ const _d = d();
 
 // _d.then(console.log)
 
-// async 함수는 무.조.건. Promise Object를 반환
+// async 함수는 무.조.건. Promise Object를 반환!!!!!!!!!!!
 // await 2가지 기능 수행
 //        1. 코드 실행 흐름 제어
 //        2. result 꺼내오기
@@ -226,10 +226,8 @@ function getData() {
   });
 }
 
-getData();
-
 async function _getData() {
-  const url = await xhrPromise.get('https://pokeapi.co/api/v2/pokemon/800');
+  const url = await xhrPromise.get('https://pokeapi.co/api/v2/pokemon/808');
 
   insertLast(
     document.body,
@@ -237,4 +235,4 @@ async function _getData() {
   );
 }
 
-_getData();
+// _getData();
