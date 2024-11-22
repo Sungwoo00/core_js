@@ -58,6 +58,8 @@
 * [Event Delegation](https://www.notion.so/Event-Delegation-24-11-19-14394f7c749f80a2a22cee809a2e99bc)
 * [Claculator](https://www.notion.so/Claculator-24-11-20-14494f7c749f806bb77cf07a826a74b9)
 * [Promise](https://www.notion.so/Promise-24-11-21-14594f7c749f80cbb51fcc8cae6ee6f7)
+* [async, await](https://www.notion.so/async-await-24-11-22-14694f7c749f801b8742c60150daa743)
+* 
 </details>
 
 
