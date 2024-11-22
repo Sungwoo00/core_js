@@ -98,6 +98,9 @@ xhr.delete = (url, success, fail) => {
 //   END_POINT,
 //   (data)=>{
 //     console.log( data );
+//   },
+//   ()=>{
+
 //   }
 // )
 
@@ -118,7 +121,7 @@ const defaultOptions = {
   },
 };
 
-function xhrPromise(options = {}) {
+export function xhrPromise(options = {}) {
   const { method, url, errorMessage, body, headers } = {
     ...defaultOptions,
     ...options,
@@ -154,16 +157,18 @@ function xhrPromise(options = {}) {
   });
 }
 
-xhrPromise({
-  method: 'GET',
-  url: END_POINT,
-})
-  .then((res) => {
-    console.log(res);
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+// xhrPromise({
+//   method:'GET',
+//   url:END_POINT
+// })
+// .then((res)=>{
+//   console.log( res );
+
+// })
+// .catch((err)=>{
+//   console.log( err );
+
+// })
 
 xhrPromise.get = (url) => xhrPromise({ url });
 xhrPromise.post = (url, body) => xhrPromise({ url, body, method: 'POST' });
@@ -173,13 +178,18 @@ xhrPromise.delete = (url) => xhrPromise({ url, method: 'DELETE' });
 xhrPromise
   .get(END_POINT)
   .then((res) => {
+    // console.log(res);
+
     res.forEach(({ website }) => {
       const tag = `
-        <div>site:${website}</div>
-      `;
-      document.body.insertAdjacentHTML('beforeend', tag);
+      <div>site : ${website}</div>
+    `;
+
+      document.body.insertAdjacentHTML('beforeend');
     });
   })
-  .catch((error) => {
-    console.error(error);
-  });
+  .then(() => {})
+  .catch(() => {});
+
+// xhrPromise.put()
+// xhrPromise.delete()
