@@ -59,8 +59,13 @@
 * [Claculator](https://www.notion.so/Claculator-24-11-20-14494f7c749f806bb77cf07a826a74b9)
 * [Promise](https://www.notion.so/Promise-24-11-21-14594f7c749f80cbb51fcc8cae6ee6f7)
 * [async, await](https://www.notion.so/async-await-24-11-22-14694f7c749f801b8742c60150daa743)
-* 
+* [localStorage, Cookie](https://www.notion.so/localStorage-Cookie-24-11-25-14994f7c749f80fdb7ffe501e5e8a386)
 </details>
 
+<details>
+<summary>5주차</summary>
+
+* [localStorage, Cookie](https://www.notion.so/localStorage-Cookie-24-11-25-14994f7c749f80fdb7ffe501e5e8a386)
+</details>
 
 </details>
