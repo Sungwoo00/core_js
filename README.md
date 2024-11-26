@@ -66,6 +66,7 @@
 <summary>5주차</summary>
 
 * [localStorage, Cookie](https://www.notion.so/localStorage-Cookie-24-11-25-14994f7c749f80fdb7ffe501e5e8a386)
+* [Web Component API](https://www.notion.so/Web-Components-24-11-26-14a94f7c749f8027b78fc5fa478b42ca)
 </details>
 
 </details>
