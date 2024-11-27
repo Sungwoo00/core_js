@@ -69,4 +69,10 @@
 * [Web Component API](https://www.notion.so/Web-Components-24-11-26-14a94f7c749f8027b78fc5fa478b42ca)
 </details>
 
+
+<details>
+<summary>자바스크립트 딥다이브</summary>
+* [자바스크립트 딥다이브 1주차](https://www.notion.so/14a94f7c749f8049a4b7d03a49aeb9f4)
+</details>
+
 </details>
