@@ -67,6 +67,8 @@
 
 * [localStorage, Cookie](https://www.notion.so/localStorage-Cookie-24-11-25-14994f7c749f80fdb7ffe501e5e8a386)
 * [Web Component API](https://www.notion.so/Web-Components-24-11-26-14a94f7c749f8027b78fc5fa478b42ca)
+* [Vite](https://www.notion.so/vite-24-11-29-14d94f7c749f802b873bfc77cb849ef0)
+* [Lit](https://www.notion.so/Lit-24-11-29-14d94f7c749f80a9b527cca18ed4fe88)
 </details>
 
 
