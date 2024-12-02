@@ -69,6 +69,14 @@
 * [Web Component API](https://www.notion.so/Web-Components-24-11-26-14a94f7c749f8027b78fc5fa478b42ca)
 * [Vite](https://www.notion.so/vite-24-11-29-14d94f7c749f802b873bfc77cb849ef0)
 * [Lit](https://www.notion.so/Lit-24-11-29-14d94f7c749f80a9b527cca18ed4fe88)
+* [TypeScript](https://www.notion.so/TypeScript-24-12-02-15094f7c749f80e4b75de04a70b5634b)
+</details>
+
+
+<details>
+<summary>6주차</summary>
+  
+* [TypeScript](https://www.notion.so/TypeScript-24-12-02-15094f7c749f80e4b75de04a70b5634b)
 </details>
 
 
