@@ -76,7 +76,7 @@
 <details>
 <summary>6주차</summary>
   
-* [TypeScript](https://www.notion.so/TypeScript-24-12-02-15094f7c749f80e4b75de04a70b5634b)
+* [TypeScript 총정리](https://www.notion.so/TypeScript-24-12-02-15094f7c749f80e4b75de04a70b5634b)
 </details>
 
 
