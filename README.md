@@ -77,6 +77,7 @@
 <summary>6주차</summary>
   
 * [TypeScript 총정리](https://www.notion.so/TypeScript-24-12-02-15094f7c749f80e4b75de04a70b5634b)
+* [PocketBase](https://www.notion.so/PocketBase-24-12-04-15294f7c749f802abdfafcb458ada5f0)
 </details>
 
 
