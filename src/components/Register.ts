@@ -1,8 +1,8 @@
 import { css, CSSResultGroup, html, LitElement } from 'lit';
-import resetCSS from '../../Layout/restCSS';
+import resetCSS from '../Layout/restCSS';
 import { customElement, property, state } from 'lit/decorators.js';
 import gsap from 'gsap';
-import pb from '../../api/pocketbase';
+import pb from '../api/pocketbase';
 import Swal from 'sweetalert2';
 
 //선언형(lit) <-> 명령형(vanila) 리액트에서 많이 비교함
