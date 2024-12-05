@@ -1,6 +1,6 @@
 import { getPbImageURL } from '@/api/getPbImageURL';
 
-console.log(import.meta.env);
+// console.log(import.meta.env);
 
 async function renderProduct() {
   const response = await fetch(`${import.meta.env_VITE_PB_API}/collections/products/records`);
