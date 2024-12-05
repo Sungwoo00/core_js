@@ -84,6 +84,7 @@
 <details>
 <summary>자바스크립트 딥다이브</summary>
 * [자바스크립트 딥다이브 1주차](https://www.notion.so/14a94f7c749f8049a4b7d03a49aeb9f4)
+* [자바스크립트 딥다이브 2주차](https://www.notion.so/2-14f94f7c749f80ef9987d598160780fd)
 </details>
 
 </details>
